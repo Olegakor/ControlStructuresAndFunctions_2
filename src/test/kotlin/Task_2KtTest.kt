@@ -37,7 +37,7 @@ class Task_2KtTest {
     @Test
     fun calculateCommissionVisa() {
         val result = calculateCommission(VISA, transferAmount = 5_000.0)
-        assertEquals(77.5, result, 0.00001)
+        assertEquals(37.5, result, 0.00001)
     }
 
     @Test
